@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #E5E5E5;
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navbar ul {
+    display: flex;
+    gap: 5vw;
+    list-style-type: none;
+    margin-top: revert;
+    font-size: 20px;
+}
+.Courses a{
+    text-decoration: none;
+    color: #717781;
+}
+.Courses {
+    display: flex;
+    gap: 1vw;
+    cursor: pointer;
+}
+
+.head-1 .image-logo {
+    height: 35px;
+    width: 140px;
+    padding-top: 10px;
+}
+
+.head-1 .image-logo img {
+    height: 100%;
+    width: 100%;
+}
+
+.header-icon {
+    display: flex;
+    padding-top: 15px;
+    gap: 1vw;
+}
+
+body {
+    margin: 50px 50px;
+    margin-top: 30px;
+}
+
+.delete {
+    background-color: #4475F2;
+    color: #F4F5F7;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.profile {
+    background-color: #E3EBFD;
+    color: #4475F2;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.delete i, .profile i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+#body-content-1 {
+    margin: 70px 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-bottom: 0;
+}
+
+.round-text-box {
+    color: #4F7DF3;
+    background-color: white;
+    padding: 5px 10px;
+    /* padding-left: 15px;
+padding-right: 15px; */
+    border-radius: 25px;
+    width: 17vw;
+}
+
+.round-text-box p {
+    font-weight: 700;
+    font-family: "Plus Jakarta Sans";
+}
+
+.large-text {
+    margin: 0;
+}
+
+.large-text p {
+    margin: 0;
+    font-size: 70px;
+    font-weight: 800;
+    color: #181E4B;
+}
+
+.large-text p span {
+    color: #4475F2;
+}
+
+.col-1 .text p {
+    line-height: 30px;
+    font-size: 1.2rem;
+    width: 35vw;
+}
+
+.col-1 button {
+    background: #4475F2;
+    box-shadow: 0px 20px 35px rgba(68, 117, 242, 0.21);
+    border-radius: 10px;
+    border: none;
+    width: 10vw;
+    padding: 15px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.col-1 button p{
+    color: white;
+    font-size: 15px;
+}
+.col-2 img{
+    max-width: 100%;
+    height: auto;
+}
+#image-logo{
+    display: flex;
+    justify-content: space-around;
+    gap: 5vw;
+    margin-bottom: 70px;
+}
+#image-logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10vw;
+    
+}
+.images-4{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 20px;
+}
+.images-4-img img{
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+}
+#body-content-2{
+    margin-bottom: 50px;
+}
+#body-content-2 h1{
+    color: #14183E;
+    font-size: 45px;
+}
+#body-content-3 h1{
+    color: #14183E;
+    font-size: 45px;
+}
+#body-content-3 p{
+    font-size: 17px;
+}
+#body-content-3 p{
+   width: 50vw;
+   text-align: center;
+   margin: 30px 0;
+  
+}
+#body-content-3{
+    margin: 100px 0;
+    width: 100%;
+}
+
+.text-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#body-content-3 img{
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+}
+.div-3 span{
+    font-weight: 800;
+    color: #18214D;
+    margin-bottom: 8px;
+}
+.body-content-3-divs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    margin: 60px 0;
+}
+.para{
+    width: 20vw;
+    margin: 0;
+    padding-top: 5px;
+}
+
+
+
+/* media query for responsiveness */
+
+@media only screen and (max-width: 812px) {
+    #body-content-1 {
+        margin: 70px 0;
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        margin-bottom: 0;
+    }
+    .round-text-box {
+        width: 39vw;
+        padding: 15px;
+    }
+    .col-1 button {
+        width: 20vw;
+    }
+    .text{
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width: 550px) {
+#body-content-3 .text-div p{
+    width: 80%;
+}
+#body-content-3 .text-div h1{
+    text-align: center;
+}
+.large-text{
+    font-size: 40px;
+}
+}
